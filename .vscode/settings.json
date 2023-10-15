@@ -1,0 +1,32 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintArgs": [
+        "--disable=C0111",
+        "--disable=C0301",
+        "--disable=W0718"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305"
+    ],
+    "editor.defaultFormatter": "ms-python.black-formatter",   
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.formatting.blackArgs": [
+        "--line-length=120"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.rulers": [120],
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.insertSpaces": true,
+        "editor.formatOnSaveMode": "file",
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-python.autopep8",
+        "ms-python.flake8",
+        "ms-python.mypy-type-checker",
+        "ms-python.vscode-pylance",
+        "ms-python.pylint",
+        "ms-python.python",
+        "ms-python.black",
+        "kevinrose.vsc-python-indent",
+        "ms-python.black-formatter",
+        "eamodio.gitlens"    ]
+}
