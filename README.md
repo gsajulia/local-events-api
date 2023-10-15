@@ -17,12 +17,25 @@ Siga estas etapas para configurar o ambiente de desenvolvimento:
 # Clone o repositório
 git clone https://github.com/gsajulia/local-events-api.git
 cd local-events-api
+```
+1) Primeira opção
+```bash
 
+# Instale as dependências
+pip install -r requirements.txt
+
+# Clique no play ou rode
+uvicorn main:app --reload 
+```
+
+2) Segunda opção
+```bash
 # Opcionalmente, crie um ambiente virtual
 python -m venv venv
 source venv/bin/activate  # No Windows, use "venv\Scripts\activate"
 
-uvicorn main:app --reload # (or use the play if you don't use venv)
+uvicorn main:app --reload
 
 # Instale as dependências
 pip install -r requirements.txt
+```
