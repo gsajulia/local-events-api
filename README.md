@@ -34,8 +34,8 @@ uvicorn main:app --reload
 python -m venv venv
 source venv/bin/activate  # No Windows, use "venv\Scripts\activate"
 
-uvicorn main:app --reload
-
 # Instale as dependências
 pip install -r requirements.txt
+
+uvicorn main:app --reload
 ```
